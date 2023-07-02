@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 *
 {
@@ -35,7 +34,7 @@ h2::before
   -webkit-text-stroke: 0vw #383d52;
   border-right:2px solid #01fe87;
   overflow: hidden;
-  animation: animate 6% linear infinite;
+  animation: animate 6s linear infinite;
 }
 @keyframes animate
 {
