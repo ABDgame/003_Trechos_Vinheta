@@ -8,17 +8,21 @@
 }
 body
 {
+  background: url("VINHETA.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background:#252839;
+  
 }
 h2
 {
   position: relative;
   font-size: 14vh;
-  color: #252839;
+  color: transparent;
   -webkit-text-stroke: 0.3vh #383d52;
   text-transform: uppercase;
 }
@@ -30,9 +34,9 @@ h2::before
   left: 0;
   width: 0;
   height: 100%;
-  color: #01fe87;
+  color: #252839;
   -webkit-text-stroke: 0vw #383d52;
-  border-right:2px solid #01fe87;
+  border-right:2px solid #252839;
   overflow: hidden;
   animation: animate 6s linear infinite;
 }
